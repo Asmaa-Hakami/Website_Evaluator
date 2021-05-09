@@ -3,8 +3,8 @@ import os
 from email.message import EmailMessage
 
 # Email and password to login to the account that will send the message
-email_id = 'asmaa.a.hakami@gmail.com' #os.environ.get('EMAIL_ADDR') # # 
-email_pass = 'ADT12345' #os.environ.get('EMAIL_PASS') #  #
+email_id = os.environ.get('EMAIL_ADDR') # # 
+email_pass = os.environ.get('EMAIL_PASS') #  #
 
 def send(file, new_email):
     # Create message content
